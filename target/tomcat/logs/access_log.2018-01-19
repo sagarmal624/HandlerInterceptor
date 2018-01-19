@@ -1,0 +1,15 @@
+0:0:0:0:0:0:0:1 - - [19/Jan/2018:10:29:13 +0530] "GET /spring-handler-interceptor HTTP/1.1" 302 - http-bio-8080-exec-1 0
+0:0:0:0:0:0:0:1 - - [19/Jan/2018:10:29:13 +0530] "GET /spring-handler-interceptor/ HTTP/1.1" 404 949 http-bio-8080-exec-3 73
+0:0:0:0:0:0:0:1 - - [19/Jan/2018:10:29:15 +0530] "GET /favicon.ico HTTP/1.1" 404 - http-bio-8080-exec-4 0
+0:0:0:0:0:0:0:1 - - [19/Jan/2018:10:29:36 +0530] "GET /spring-handler-interceptor/login HTTP/1.1" 200 441 http-bio-8080-exec-9 2844
+0:0:0:0:0:0:0:1 - - [19/Jan/2018:10:29:42 +0530] "POST /spring-handler-interceptor/login HTTP/1.1" 200 457 http-bio-8080-exec-2 1903
+0:0:0:0:0:0:0:1 - - [19/Jan/2018:10:29:48 +0530] "GET /emp HTTP/1.1" 404 - http-bio-8080-exec-3 0
+0:0:0:0:0:0:0:1 - - [19/Jan/2018:10:30:18 +0530] "POST /spring-handler-interceptor/login HTTP/1.1" 302 - http-bio-8080-exec-5 30
+0:0:0:0:0:0:0:1 - - [19/Jan/2018:10:30:18 +0530] "GET /spring-handler-interceptor/app/main-page HTTP/1.1" 200 186 http-bio-8080-exec-5 268
+0:0:0:0:0:0:0:1 - - [19/Jan/2018:10:30:29 +0530] "GET /spring-handler-interceptor/login HTTP/1.1" 302 - http-bio-8080-exec-9 5
+0:0:0:0:0:0:0:1 - - [19/Jan/2018:10:30:29 +0530] "GET /spring-handler-interceptor/app/main-age HTTP/1.1" 200 185 http-bio-8080-exec-9 15
+0:0:0:0:0:0:0:1 - - [19/Jan/2018:10:30:36 +0530] "GET /spring-handler-interceptor/hello HTTP/1.1" 404 949 http-bio-8080-exec-4 13
+0:0:0:0:0:0:0:1 - - [19/Jan/2018:10:30:41 +0530] "GET /spring-handler-interceptor/login HTTP/1.1" 302 - http-bio-8080-exec-5 5
+0:0:0:0:0:0:0:1 - - [19/Jan/2018:10:30:41 +0530] "GET /spring-handler-interceptor/app/main-age HTTP/1.1" 200 185 http-bio-8080-exec-5 8
+0:0:0:0:0:0:0:1 - - [19/Jan/2018:10:30:50 +0530] "GET /spring-handler-interceptor/login HTTP/1.1" 302 - http-bio-8080-exec-9 30
+0:0:0:0:0:0:0:1 - - [19/Jan/2018:10:30:50 +0530] "GET /spring-handler-interceptor/app/main-age HTTP/1.1" 200 185 http-bio-8080-exec-9 5
